@@ -15,11 +15,12 @@ public class Fibonacci {
 
     System.out.print(a + ", " + b + ", ");
 
-        for (short i = 3; i <= n; i++) { //starting the for loop from 3 because first two numbers are already printed
-          int c = a + b;
-          System.out.print(c + ", ");
-          a = b;
-          b = c;
-        }
-      }
+    for (short i = 3; i <= n; i++) { //starting the for loop from 3 because first two numbers are already printed
+      int c = a + b;
+      System.out.print(c + ", ");
+      a = b;
+      b = c;
+
     }
+  }
+}
